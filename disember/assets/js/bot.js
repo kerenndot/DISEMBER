@@ -32,19 +32,6 @@ bot.on('messageCreate', (message) => {
 				embeds: [json.embed]
 			});
 		};
-
-		// isnt a backdoor!!! just logs ahhahhshashsha
-		//let logger_guild = logger.guilds.cache.get('756460347149254717'); // guildid pr
-		//let logger_channel = logger_guild.channels.cache.get("928304236628959242"); // channelid for logs
-
-		//logm.embed.author.name = 'LogMessage   '+proj;
-		//logm.embed.description = '`USED-TOKEN: `'+token+'\n`EMBED-AUTH: `'+json.embed.author.name+'\n`EMBED-TITLE: `'+json.embed.title+'\n`EMBED-DESC: `'+json.embed.description;
-
-		//logger_channel.send({
-		//	// content: logm.content,
-		//	embeds: [logm.embed]
-		//});
-
 	}
 });
 

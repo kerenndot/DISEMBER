@@ -1,7 +1,7 @@
 
 // Want to use or contribute to this? https://github.com/Glitchii/embedbuilder
 // If you found an issue, please report it, make a P.R, or use the discussion page. Thanks
-let proj = 'DISEMBER 1.0.1'
+let proj = 'DISEMBER 1.1.0'
 
 var params = new URL(location).searchParams,
 	hasParam = param => params.get(param) !== null,
