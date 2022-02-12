@@ -1,0 +1,14 @@
+{
+  "name": "disember",
+  "main": "index.html",
+  "version": "1.1.0",
+  "description": "free_use_license_modded_project",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "kerenndot",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.5.0"
+  }
+}
